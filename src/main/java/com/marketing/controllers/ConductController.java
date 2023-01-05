@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class ConductController {
-	
 	@RequestMapping("/hi")
 	public int viewMsg() {
 		return 10 ;
